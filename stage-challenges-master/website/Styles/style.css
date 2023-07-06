@@ -15,8 +15,8 @@
     --header-height: 3rem;
     --nav-width: 68px;
     --first-color: #ffffff;
-    --first-color-light: #000000;
-    --white-color: #000000;
+    --first-color-light: #ffffff;
+    --white-color: #ffffff;
     --body-font: 'Exo', sans-serif;
     --normal-font-size: 1rem;
     --z-fixed: 100
@@ -299,10 +299,15 @@ a {
 }
 
 body {
-	background: #ff3366;
+	background: #000000;
 	color: rgb(255, 255, 255);
 	text-align: center;
 	font-size: calc(1em + 0.5vw);
+    background-image: url(..//Assets/milky-way-5120x2880-stars-5k-17036.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 header,
@@ -374,6 +379,7 @@ h1 {
 	font-weight: 300;
 	font-size: 3.5em;
     font-family: 'DotGothic16', sans-serif;
+    color: #fbc007;
 }
 
 h2 {

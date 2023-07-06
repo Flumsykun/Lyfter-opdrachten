@@ -9,7 +9,7 @@ def fizz_buzz(fizz, buzz):
             output.append("B")
         else:
             output.append(str(i))
-    return " ".join(output)
+    return output
 
 # Provide input values for fizz and buzz
 fizz = int(input("Enter the fizz value: "))
@@ -18,5 +18,20 @@ buzz = int(input("Enter the buzz value: "))
 # Get the Fizz Buzz sequence
 sequence = fizz_buzz(fizz, buzz)
 
-# Print the sequence
-print(sequence)
+# Generate HTML
+html = """
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fizz Buzz Output</title>
+</head>
+<body>
+<h1>Fizz Buzz Output</h1>
+<p>{}</p>
+</body>
+</html>
+""".format(" ".join(sequence))
+
+# Write output to output.html
+with open('output2.html', 'w') as file:
+    file.write(html)
