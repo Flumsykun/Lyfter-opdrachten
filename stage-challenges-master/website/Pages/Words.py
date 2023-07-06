@@ -7,7 +7,7 @@ def clean_up_words(string):
     return cleaned_string.lower()
 
 # Read input from input.txt
-with open('input.txt', 'r') as file:
+with open('./input.txt', 'r') as file:
     input_data = file.readlines()
 
 # Clean up the words
@@ -17,7 +17,7 @@ for line in input_data:
     output_data.append(cleaned_line)
 
 # Write output to output.html
-with open('output.html', 'w') as file:
+with open('./index.html', 'w') as file:
     file.write('<html>\n')
     file.write('<head>\n')
     file.write('  <title>Clean Up the Words Output</title>\n')
