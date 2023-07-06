@@ -1,0 +1,22 @@
+# From: https://www.codeeval.com/open_challenges/205/
+
+"CLEAN UP THE WORDS"
+
+# Description
+You have a list of words. Letters of these words are mixed with extra symbols, so it is hard to define the beginning and end of each word. Write a program that will clean up the words from extra numbers and symbols.
+
+# Example
+Input:
+> (--9Hello----World...--)
+> Can 0$9 ---you~
+> 13What213are;11you-123+138doing7
+
+Output:
+> hello world
+> can you
+> what are you doing
+
+
+# How do I do it?
+- Load the string(s) from the input.txt
+- Find a way to clean them up

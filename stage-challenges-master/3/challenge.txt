@@ -1,0 +1,11 @@
+
+# Challenge 3
+Create a website where the first 2 challenges are shown on.
+Create a homepage with a menu where the challenges are shown on separate pages.
+
+Make it nice!
+Use bootstrap and SASS (scss)
+Using a framework is a pre (like Symfony, Laravel or AngularJS)
+Create a SEO friendly website.
+
+Build it where you can easily add new pages to display challenge 4 and 5 on (database driven is a plus!).

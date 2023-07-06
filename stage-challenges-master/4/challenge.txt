@@ -1,0 +1,30 @@
+# From: https://www.codeeval.com/open_challenges/220/
+
+"TRICK OR TREAT"
+
+# Description
+Everyone knows what Halloween is and how children love it.
+Children in costumes travel from house to house asking for treats with a phrase "Trick or treat".
+After that, they divide the treats equally among all. This year, they collected tons of candies, and need your help to share everything equally.
+You know that children receive different number of candies depending on their costume: vampire gets 3 candies from one house, zombie – 4 candies, and witch – 5 candies.
+That is, three children in three different costumes get 3+4+5=12 candies from one house.
+
+So:
+Vampire: 3 candies per house
+Zombie: 4 candies per house
+Witch: 5 candies per house
+
+# Example
+Input:
+Vampires: 1, Zombies: 1, Witches: 1, Houses: 1
+Vampires: 3, Zombies: 2, Witches: 1, Houses: 10
+
+Output:
+4
+36
+
+
+# How do I do it?
+- Load the input.txt
+- Loop trough the strings, each string contains a group of children and the amount of houses they have been to
+- Output the amount of candy each kid gets at the end of the night
