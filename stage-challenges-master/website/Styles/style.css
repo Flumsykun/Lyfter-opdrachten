@@ -9,10 +9,6 @@
     scroll-behavior: smooth;
 }
 
-body {
-    font-family: 'Exo', sans-serif;
-}
-
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
 
 :root {
@@ -21,7 +17,7 @@ body {
     --first-color: #ffffff;
     --first-color-light: #000000;
     --white-color: #000000;
-    --body-font: 'Nunito', sans-serif;
+    --body-font: 'Exo', sans-serif;
     --normal-font-size: 1rem;
     --z-fixed: 100
 }
@@ -329,6 +325,7 @@ header {
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(var(--numcards), var(--card-height));
 	gap: var(--card-margin);
+    font-family: (var(--body-font));
 }
 
 .card {
@@ -376,15 +373,17 @@ header {
 h1 {
 	font-weight: 300;
 	font-size: 3.5em;
+    font-family: 'DotGothic16', sans-serif;
 }
 
 h2 {
 	font-weight: 300;
 	font-size: 2.5em;
+    font-family: 'DotGothic16', sans-serif;
 }
 
 p {
-	font-family: sans-serif;
+    font-family: 'DotGothic16', sans-serif;
 	font-weight: 300;
 	line-height: 1.42;
 }

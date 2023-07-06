@@ -17,7 +17,7 @@ for line in input_data:
     output_data.append(cleaned_line)
 
 # Write output to output.html
-with open('./index.html', 'w') as file:
+with open('output.html', 'w') as file:
     file.write('<html>\n')
     file.write('<head>\n')
     file.write('  <title>Clean Up the Words Output</title>\n')
@@ -26,7 +26,7 @@ with open('./index.html', 'w') as file:
     file.write('  <h1>Clean Up the Words Output</h1>\n')
     file.write('  <pre>\n')
     for line in output_data:
-        file.write('    ' + line + '\n')
+        file.write('    ' + line + '<br>\n')
     file.write('  </pre>\n')
     file.write('</body>\n')
     file.write('</html>')
