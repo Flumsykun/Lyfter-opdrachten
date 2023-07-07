@@ -7,7 +7,7 @@ def clean_up_words(string):
     return cleaned_string.lower()
 
 # Read input from input.txt
-with open('./input.txt', 'r') as file:
+with open('./Input/input.txt', 'r') as file:
     input_data = file.readlines()
 
 # Clean up the words
